@@ -15,7 +15,7 @@ class GatlingSpec extends Simulation {
     // For reference, this hits 25% CPU on a 5820K with 32 GB, running both server and load test.
     readClients.inject(rampUsers(10000) over (100 seconds)).protocols(httpConf)
   )
-  
+
 }
 
 object Index {

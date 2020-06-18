@@ -1,3 +1,3 @@
-# scala-rest-starter
+# Gatling SBT
 
-Project structure + build setup for REST services with Scala + SBT
+Project structure + build setup for Gatling performance tests
